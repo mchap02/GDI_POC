@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ibx-res-bundle name="page_res.xml">
+	<pgx-meta>
+		<pgx-version>1.3</pgx-version>
+		<pgx-mode>MODE_ASSEMBLE</pgx-mode>
+		<pgx-hash>430fddd858533ba1eef3a5d33a30bf309dfaa862</pgx-hash>
+	</pgx-meta>
+	<string-file src="page.prop?IBFS_format=pgx"/>
+	<strings></strings>
+	<styles></styles>
+	<markup>
+		<markup-block>
+			<div class="pd-page-wrapper">
+				<div data-ibx-type="pdPage" data-ibxp-title="@STR_PAGE_HEADING" data-ibxp-description="@STR_PAGE_DESCRIPTION" data-ibxp-show-header="false" data-ibxp-show-toolbar="true" data-ibxp-show-refresh="true" data-ibxp-show-export="true" data-ibxp-show-pdf="true" data-ibxp-show-image="true" data-ibxp-filter-type="modal" data-ibxp-filter-open="false" data-ibxp-theme="IBFS:/WFC/Global/Themes/Custom/Deschenes_Group/theme.css" data-ibxp-size-class="pd-style-heading3" data-ibxp-ss-id="PAGE-J8HRW6K31Z7065DUA6752" data-ibxp-custom-class="" data-ibxp-hidden="false" data-ibxp-workbook="false" data-ibxp-show-embedded-js="true" data-ibxp-show-embedded-css="true" data-ibxp-max-width="">
+					<div data-ibx-type="pdFilterGrid" data-ibxp-column-count="4" data-ibxp-ss-id="FILTERGRID-KB24FQ2J1NR3F5F6D1860" data-ibxp-color-class="pd-style-default-color" data-ibxp-custom-class="">
+						<div data-ibx-type="pdFilterCell" data-ibxp-justify="center" data-ibxp-col-span="1" data-ibxp-align="start" data-ibxp-locked="false" data-ibxp-ss-id="FILTERCELL-KB24FQ2M1EKGU1XZ02001" data-ibxp-custom-class="">
+							<div data-ibx-type="pdFilterPanel" data-ibxp-content-direction="column" data-ibxp-content-align="stretch" data-ibxp-label-align="center" data-ibxp-label-pos="top" data-ibxp-size="max" data-ibxp-split="auto" data-ibxp-ss-id="FILTERPANEL-KB24GK2D1TB9YT42F1873" data-ibxp-custom-class="" data-ibxp-font-size-class="pd-style-normal" data-ibxp-amper-is-pill="false" data-ibxp-amper-type="amper_select" data-ibxp-amper-label-text="@STR_FC_LABEL_1" data-ibxp-amper-search="false" data-ibxp-amper-selection-controls="false" data-ibxp-amper-show-all="true" data-ibxp-amper-name="NOM_FILIALE" data-ibxp-amper-format="A250V" data-ibxp-amper-multiselect="true"></div>
+						</div>
+						<div data-ibx-type="pdFilterCell" data-ibxp-justify="center" data-ibxp-col-span="1" data-ibxp-align="start" data-ibxp-locked="false" data-ibxp-ss-id="FILTERCELL-KB24FQ2O1YFX65TSK355" data-ibxp-custom-class=""></div>
+						<div data-ibx-type="pdFilterCell" data-ibxp-justify="center" data-ibxp-col-span="1" data-ibxp-align="start" data-ibxp-locked="false" data-ibxp-ss-id="FILTERCELL-KB24FQ2R1Y660J7GA1084" data-ibxp-custom-class=""></div>
+						<div data-ibx-type="pdFilterCell" data-ibxp-justify="center" data-ibxp-col-span="1" data-ibxp-align="start" data-ibxp-locked="false" data-ibxp-ss-id="FILTERCELL-KB24FQ2S10F2FW5E52234" data-ibxp-custom-class=""></div>
+					</div>
+					<!--endgrid-->
+					<div data-ibx-type="pdPageSection" data-ibxp-collapsed="false" data-ibxp-description="@STR_SECTION_DESCRIPTION_3" data-ibxp-collapsible="false" data-ibxp-ss-id="SECTION-J8HRW6JE1RUKYI4VX440" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color" data-ibxp-cell-height="60">
+						<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_4" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_5" data-ibxp-maximized="false" data-ibxp-show-title="false" data-ibxp-show-toolbar="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="0" data-ibxp-grid-y="0" data-ibxp-grid-width="2" data-ibxp-grid-height="3" data-ibxp-ss-id="CONTAINER-KB24GQNE1WF123EWU3105" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+							<div data-ibx-type="pdContent" data-ibxp-type="bip_launch" data-ibxp-title="@STR_PANE_TITLE_6" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_7" data-ibxp-ss-id="CONTENT-KB24GQNQ1LFCSJYKP2427" data-ibxp-custom-class="" data-ibxp-style="inherit" data-ibxp-path="IBFS:/WFC/Repository/POC_Visualizations/Scorecard/" data-ibxp-file="sales_kpi.fex"></div>
+						</div>
+						<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_8" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_9" data-ibxp-maximized="false" data-ibxp-show-title="false" data-ibxp-show-toolbar="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="2" data-ibxp-grid-y="0" data-ibxp-grid-width="2" data-ibxp-grid-height="3" data-ibxp-ss-id="CONTAINER-KB24FYV61IV6OHIUJ5805" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+							<div data-ibx-type="pdContent" data-ibxp-type="bip_launch" data-ibxp-title="@STR_PANE_TITLE_10" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_11" data-ibxp-ss-id="CONTENT-KB24FYVJ1WGL3LK582548" data-ibxp-custom-class="" data-ibxp-style="inherit" data-ibxp-path="IBFS:/WFC/Repository/POC_Visualizations/Scorecard/" data-ibxp-file="sales_over_ly.fex"></div>
+						</div>
+						<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_12" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_13" data-ibxp-maximized="false" data-ibxp-show-title="false" data-ibxp-show-toolbar="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="4" data-ibxp-grid-y="0" data-ibxp-grid-width="2" data-ibxp-grid-height="3" data-ibxp-ss-id="CONTAINER-KB24GTA61ASXGT0M71538" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+							<div data-ibx-type="pdContent" data-ibxp-type="bip_launch" data-ibxp-title="@STR_PANE_TITLE_41" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_42" data-ibxp-ss-id="CONTENT-KB24GTAG1VNGSA6J15245" data-ibxp-custom-class="" data-ibxp-style="inherit" data-ibxp-path="IBFS:/WFC/Repository/POC_Visualizations/Scorecard/" data-ibxp-file="potential_kpiv2.fex"></div>
+						</div>
+						<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_16" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_17" data-ibxp-maximized="false" data-ibxp-show-title="false" data-ibxp-show-toolbar="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="6" data-ibxp-grid-y="0" data-ibxp-grid-width="2" data-ibxp-grid-height="3" data-ibxp-ss-id="CONTAINER-KB24GW7I1CWZ4VWWR853" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+							<div data-ibx-type="pdContent" data-ibxp-type="bip_launch" data-ibxp-title="@STR_PANE_TITLE_43" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_44" data-ibxp-ss-id="CONTENT-KB24GW7T1TI9YAKNG2255" data-ibxp-custom-class="" data-ibxp-style="inherit" data-ibxp-path="IBFS:/WFC/Repository/POC_Visualizations/Scorecard/" data-ibxp-file="budget_kpiv2.fex"></div>
+						</div>
+						<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_34" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_35" data-ibxp-maximized="false" data-ibxp-show-title="false" data-ibxp-show-toolbar="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="8" data-ibxp-grid-y="0" data-ibxp-grid-width="4" data-ibxp-grid-height="3" data-ibxp-ss-id="CONTAINER-KB2FCP6013DBTN7HY3333" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+							<div data-ibx-type="pdContent" data-ibxp-type="bip_launch" data-ibxp-title="@STR_PANE_TITLE_51" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_52" data-ibxp-ss-id="CONTENT-KB2FCP6G1YQCIT1YB5424" data-ibxp-custom-class="" data-ibxp-style="inherit" data-ibxp-path="IBFS:/WFC/Repository/POC_Visualizations/Scorecard/" data-ibxp-file="sales_trend.fex"></div>
+						</div>
+						<div data-ibx-type="pdContainer" data-ibxp-type="carousel" data-ibxp-title="@STR_CONT_TITLE_45" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_46" data-ibxp-maximized="false" data-ibxp-show-title="true" data-ibxp-show-toolbar="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="0" data-ibxp-grid-y="3" data-ibxp-grid-width="6" data-ibxp-grid-height="7" data-ibxp-ss-id="CONTAINER-KB80BVMA11CYIVD7F149" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+							<div data-ibx-type="pdContent" data-ibxp-type="bip_launch" data-ibxp-title="@STR_PANE_TITLE_47" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_48" data-ibxp-ss-id="CONTENT-KB80BVMN1ALPS44X02933" data-ibxp-custom-class="" data-ibxp-style="inherit" data-ibxp-path="IBFS:/WFC/Repository/POC_Visualizations/" data-ibxp-file="2nd_visual_geomap_v1.fex"></div>
+							<div data-ibx-type="pdContent" data-ibxp-type="bip_launch" data-ibxp-title="@STR_PANE_TITLE_49" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_50" data-ibxp-ss-id="CONTENT-KB80C4BM1SHXTVCR23912" data-ibxp-custom-class="" data-ibxp-style="inherit" data-ibxp-path="IBFS:/WFC/Repository/POC_Visualizations/" data-ibxp-file="2nd_visual_geomap_insight.fex"></div>
+						</div>
+						<div data-ibx-type="pdContainer" data-ibxp-type="panel" data-ibxp-title="@STR_CONT_TITLE_30" data-ibxp-original-title="@STR_CONT_TITLE_ORIGINAL_31" data-ibxp-maximized="false" data-ibxp-show-title="false" data-ibxp-show-toolbar="true" data-ibxp-lock-content="true" data-ibxp-es-path="" data-ibxp-es-lock-path="true" data-ibxp-es-flatten-list="false" data-ibxp-es-hide-tags="false" data-ibxp-es-initial-view="grid" data-ibxp-device-display="7" data-ibxp-carousel-interval="0" data-ibxp-carousel-rerun="false" data-ibxp-grid-x="6" data-ibxp-grid-y="3" data-ibxp-grid-width="6" data-ibxp-grid-height="7" data-ibxp-ss-id="CONTAINER-KB2EACG312DXZ96AZ1910" data-ibxp-custom-class="" data-ibxp-color-class="pd-style-default-color">
+							<div data-ibx-type="pdContent" data-ibxp-type="bip_launch" data-ibxp-title="@STR_PANE_TITLE_32" data-ibxp-original-title="@STR_PANE_TITLE_ORIGINAL_33" data-ibxp-ss-id="CONTENT-KB2EACGE1B43E3EH03925" data-ibxp-custom-class="" data-ibxp-style="content" data-ibxp-path="IBFS:/WFC/Repository/POC_Visualizations/" data-ibxp-file="2nd_Visual_Treemap_V2_IA.fex"></div>
+						</div>
+					</div>
+					<!--endsections-->
+				</div>
+			</div>
+		</markup-block>
+		<markup-block>
+			<div class="pd-internal-stylesheet">
+				.page-placeholder {margin-left: 20px;} .PAGE-J8HRW6K31Z7065DUA6752 .pd-regular-filter-wrapper .pd-filter-grid {padding: 0px 10px;} .PAGE-J8HRW6K31Z7065DUA6752 .pd-page-canvas {padding-top: 10px;} .PAGE-J8HRW6K31Z7065DUA6752 .pd-page-canvas .pd-page-acc-section:last-child .grid-stack.pd-top-section {margin-bottom: 10px;}.PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section {margin: 0px 10px 0px 10px;} .PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.grid-stack-item-content {padding: 10px;} .PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-e,.PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-se {right: 5px;} .PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-s,.PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-se,.PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-sw {bottom: 5px;} .PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-w,.PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item &gt;.ui-resizable-sw {left: 5px;} .PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-placeholder &gt;.placeholder-content {top: 10px;right: 10px;bottom: 10px;left: 10px;} .PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.pd-page-section-grid &gt;.pd-page-section-grid-box {padding: 10px;} .PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-e,.PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-se {right: -5px;} .PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-s,.PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-se,.PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-sw {bottom: -5px;} .PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-w,.PAGE-J8HRW6K31Z7065DUA6752 .grid-stack.pd-page-section &gt;.grid-stack-item.grid-stack-item-panel-in-panel.toolbar-hidden &gt;.ui-resizable-sw {left: -5px;}
+				
+				
+				.FILTERPANEL-KB24GK2D1TB9YT42F1873 .pd-amper-control {max-height: ;}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				>
+			</div>
+			<!--endis-->
+		</markup-block>
+		<markup-block>
+			<pgx-wfd>
+				<pgx-wfd-path path="IBFS:/WFC/Repository/POC_Visualizations/Scorecard/sales_kpi.fex" run="true" runBD="true">
+					<pgx-wfd-amper name="NOM_FILIALE" format="A250V" operation="OR" multiselect="true" defaultValue="" />
+				</pgx-wfd-path>
+				<pgx-wfd-path path="IBFS:/WFC/Repository/POC_Visualizations/Scorecard/sales_over_ly.fex" run="false" runBD="true">
+					<pgx-wfd-amper name="NOM_FILIALE" format="A250V" operation="OR" multiselect="true" defaultValue="" />
+				</pgx-wfd-path>
+				<pgx-wfd-path path="IBFS:/WFC/Repository/POC_Visualizations/Scorecard/potential_kpiv2.fex" run="false" runBD="true">
+					<pgx-wfd-amper name="NOM_FILIALE" format="A250V" operation="OR" multiselect="true" defaultValue="" />
+				</pgx-wfd-path>
+				<pgx-wfd-path path="IBFS:/WFC/Repository/POC_Visualizations/Scorecard/budget_kpiv2.fex" run="false" runBD="true">
+					<pgx-wfd-amper name="NOM_FILIALE" format="A250V" operation="OR" multiselect="true" defaultValue="" />
+				</pgx-wfd-path>
+				<pgx-wfd-path path="IBFS:/WFC/Repository/POC_Visualizations/Scorecard/sales_trend.fex" run="false" runBD="true">
+					<pgx-wfd-amper name="NOM_FILIALE" format="A250V" operation="OR" multiselect="true" defaultValue="" />
+				</pgx-wfd-path>
+				<pgx-wfd-path path="IBFS:/WFC/Repository/POC_Visualizations/2nd_Visual_Treemap_V2_IA.fex" run="false" runBD="true">
+					<pgx-wfd-amper name="NOM_FILIALE" format="A250V" operation="OR" multiselect="true" defaultValue="" />
+				</pgx-wfd-path>
+				<pgx-wfd-path path="IBFS:/WFC/Repository/POC_Visualizations/2nd_visual_geomap_v1.fex" run="false" runBD="true"></pgx-wfd-path>
+				<pgx-wfd-path path="IBFS:/WFC/Repository/POC_Visualizations/2nd_visual_geomap_insight.fex" run="false" runBD="true"></pgx-wfd-path>
+			</pgx-wfd>
+			<!--endpgxwfd-->
+		</markup-block>
+	</markup>
+	<scripts></scripts>
+</ibx-res-bundle>

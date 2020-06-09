@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" type="FexFile">
+    <properties size="8">
+        <entry key="ChartType" value="Choropleth"/>
+        <entry key="EnhancedRun" value="on"/>
+        <entry key="InsightDesigner" value="true"/>
+        <entry key="LastDescribed" value="1591727871706"/>
+        <entry key="OutputFormat" value="JSCHART"/>
+        <entry key="bucketSyntax" value="true"/>
+        <entry key="masters" value="&quot;poc_visualizations/hold_tables/sales_poc_view_bv&quot;"/>
+        <entry key="tool" value="infoAssist,chart,IAFull"/>
+    </properties>
+    <extendedProperties _jt="HashMap" loadFactor="0.75" threshold="0"/>
+    <nlsValues _jt="HashMap" loadFactor="0.75" threshold="12">
+        <entry>
+            <key _jt="string" value="fr_CA"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Carte géographique"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="2nd Visual Geomap Insight"/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_ES"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Mapa geográfico"/>
+            </value>
+        </entry>
+    </nlsValues>
+    <fexParameters _jt="ArrayList" size="0"/>
+</rootObject>

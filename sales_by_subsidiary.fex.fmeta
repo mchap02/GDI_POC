@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" type="FexFile">
+    <properties size="8">
+        <entry key="ChartType" value="com.ibi.arc"/>
+        <entry key="InsightDesigner" value="true"/>
+        <entry key="LastDescribed" value="1591727872377"/>
+        <entry key="OutputFormat" value="JSCHART"/>
+        <entry key="bucketSyntax" value="true"/>
+        <entry key="masters" value="&quot;poc_visualizations/hold_tables/sales_2020&quot;"/>
+        <entry key="skipamper" value="on"/>
+        <entry key="tool" value="infoAssist,chart,IAFull"/>
+    </properties>
+    <extendedProperties _jt="HashMap" loadFactor="0.75" threshold="0"/>
+    <nlsValues _jt="HashMap" loadFactor="0.75" threshold="12">
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Sales by Subsidiary"/>
+                <item _jt="string" index="1" value=""/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_ES"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Ventas por subsidiaria"/>
+                <item _jt="string" index="1" value=""/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_FR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Ventes par filiale"/>
+                <item _jt="string" index="1" value=""/>
+            </value>
+        </entry>
+    </nlsValues>
+    <fexParameters _jt="ArrayList" size="0"/>
+</rootObject>

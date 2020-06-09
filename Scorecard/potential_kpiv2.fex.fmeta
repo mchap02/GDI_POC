@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rootObject _jt="IBFSMRObject" binary="false" defaultLng="en_US" dummy="false" expireDate="0" length="0" type="FexFile">
+    <properties size="8">
+        <entry key="ChartType" value="com.ibi.kpiboxcustomcurrency"/>
+        <entry key="InsightDesigner" value="true"/>
+        <entry key="LastDescribed" value="1591727869564"/>
+        <entry key="OutputFormat" value="JSCHART"/>
+        <entry key="bucketSyntax" value="true"/>
+        <entry key="masters" value="&quot;poc_visualizations/hold_tables/newbudget_potential_mc&quot;"/>
+        <entry key="skipamper" value="on"/>
+        <entry key="tool" value="infoAssist,chart,IAFull"/>
+    </properties>
+    <extendedProperties _jt="HashMap" loadFactor="0.75" threshold="12">
+        <entry>
+            <key _jt="string" value="_IA_Metadata"/>
+            <value _jt="string" value="-* Created By InfoAssist , ON: June 9, 2020, Version: 8207.11,87AEAD&#10;-*Do not delete or modify the comments below&#10;*-INTERNAL_COMMENT LINE#0$PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0xLjAtLT48Um9vdCByZWxlYXNlPSI5LjkuOS45IiB2ZXJzaW9uPSIxLjQiPgogICAgPE9iamVjdCBvYmplY3RJZD0iVGFibGVDaGFydF8xIj4KICAgICAgICA8UHJvcGVydHkgbmFtZT0iZHVhbEJ1Y2tldE51bWVyaWMiIHR5cGU9Ik1hcCIvPgogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJXaGVyZVR5cGVzT3JkZXJlZCIgdHlwZT0iTGlzdCI+CiAgICAgICAgICAgIDxFbnRyeSB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5DRF9XSEVSRTwvRW50cnk+CiAgICAgICAgPC9Qcm9wZXJ0eT4KICAgICAgICA8UHJvcGVydHkgbmFtZT0iTGlua2VkU29ydHMiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciLz4KICAgICAgICA8UHJvcGVydHkgbmFtZT0iZm9vdGVyRGVmYXVsdFZpc2libGUiIHR5cGU9ImphdmEubGFuZy5Cb29sZWFuIj5mYWxzZTwvUHJvcGVydHk+CiAgICAgICAgPFByb3BlcnR5IG5hbWU9ImhlYWRlckh0bWwiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPiZhbXA7bHQ7Ym9keSBjb250ZW50ZWRpdGFibGU9JmFtcDtxdW90O3RydWUmYW1wO3F1b3Q7IHNwZWxsY2hlY2s9JmFtcDtxdW90O2ZhbHNlJmFtcDtxdW90OyZhbXA7Z3Q7JmFtcDtsdDtmb250IHN0eWxlPSZhbXA7cXVvdDsgZm9udC1mYW1pbHk6IEFSSUFMOyBjb2xvcjogUkdCKDMyLDAsMzIpOyZhbXA7cXVvdDsgc2l6ZT0mYW1wO3F1b3Q7MyZhbXA7cXVvdDsmYW1wO2d0O1BvdGVudGlhbCBWcy4mYW1wO2x0Oy9mb250JmFtcDtndDsmYW1wO2x0Oy9ib2R5JmFtcDtndDs8L1Byb3BlcnR5PgogICAgPC9PYmplY3Q+CiAgICA8T2JqZWN0IG9iamVjdElkPSJHTE9CQUwiPgogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJTYW1wbGVEYXRhIiB0eXBlPSJqYXZhLmxhbmcuQm9vbGVhbiI+ZmFsc2U8L1Byb3BlcnR5PgogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJHbG9iYWxSZWNvcmRMaW1pdCIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+NTAwPC9Qcm9wZXJ0eT4KICAgICAgICA8UHJvcGVydHkgbmFtZT0iR2xvYmFsUnVuUmVjb3JkTGltaXQiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPjA8L1Byb3BlcnR5PgogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJHbG9iYWxPcHRpbWl6YXRpb24iIHR5cGU9ImphdmEubGFuZy5Cb29sZWFuIj50cnVlPC9Qcm9wZXJ0eT4KICAgICAgICA8UHJvcGVydHkgbmFtZT0iZmllbGREaXNwbGF5TW9kZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+bGFiZWw8L1Byb3BlcnR5PgogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJwcmVmaXhEaXNwbGF5TW9kZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyIvPgogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJBY3RpdmVfU3R5bGVfVXNlcl90eXBlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5wb3dlcjwvUHJvcGVydHk+CiAgICAgICAgPFByb3BlcnR5IG5hbWU9Ikdsb2JhbFZhbHVlc1BhZ2luZyIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+NDwvUHJvcGVydHk+CiAgICAgICAgPFByb3BlcnR5IG5hbWU9IkZvY2V4ZWNQcmVmZXJlbmNlcyIgdHlwZT0iTWFwIj4KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGlzcGxheVNsaWNlcnNUYWJFZGl0SW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+CiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImRpc3BsYXlTZXJpZXNUYWJJbmZvTWluaVByZWZlcmVuY2UiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPmZhbHNlPC9FbnRyeT4KICAgICAgICAgICAgPEVudHJ5IGtleT0iYXV0b0RyaWxsU2NyaXB0IiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIi8+CiAgICAgICAgICAgIDxFbnRyeSBrZXk9InJ1bk9uU3RhcnR1cERlZmVycmVkSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+CiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImRpc3BsYXlFZGl0TW9kZUluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L0VudHJ5PgogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5SG9tZVRhYkluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L0VudHJ5PgogICAgICAgICAgICA8RW50cnkga2V5PSJ0YXJnZXRBdXRvTGlua0luZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L0VudHJ5PgogICAgICAgICAgICA8RW50cnkga2V5PSJtZXRhZGF0YV92aWV3cyIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+TWV0YURhdGFUcmVlLlZJRVdfRElNUzwvRW50cnk+CiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImRpc3BsYXlEYXRhVGFiSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+CiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImluZm9Bc3Npc3RNb2RlQWxsb3dlZEluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L0VudHJ5PgogICAgICAgICAgICA8RW50cnkga2V5PSJlbmFibGVBdXRvTGlua0luZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L0VudHJ5PgogICAgICAgICAgICA8RW50cnkga2V5PSJkZWZhdWx0X3ByZXZpZXdfcGFnZWxpbWl0IiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj41PC9FbnRyeT4KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGlzcGxheUluc2VydFRhYkluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+ZmFsc2U8L0VudHJ5PgogICAgICAgICAgICA8RW50cnkga2V5PSJydW5PblN0YXJ0dXBJbmZvTWluaVByZWZlcmVuY2UiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPnRydWU8L0VudHJ5PgogICAgICAgICAgICA8RW50cnkga2V5PSJk&#10;*-INTERNAL_COMMENT LINE#1$aXNwbGF5TGF5b3V0VGFiSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5mYWxzZTwvRW50cnk+CiAgICAgICAgICAgIDxFbnRyeSBrZXk9ImRpc3BsYXlJbnRlcmFjdGl2ZU1vZGVJbmZvTWluaVByZWZlcmVuY2UiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPnRydWU8L0VudHJ5PgogICAgICAgICAgICA8RW50cnkga2V5PSJlbmFibGVJbmZvTWluaV9TYXZlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj50cnVlPC9FbnRyeT4KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGVmYXVsdF9wcmV2aWV3X3BhZ2VsaW1pdF9sYXlvdXQiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPjE8L0VudHJ5PgogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5U2xpY2Vyc1RhYkludGVyYWN0aXZlSW5mb01pbmlQcmVmZXJlbmNlIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj50cnVlPC9FbnRyeT4KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGVmYXVsdF9jb21wb3NlX2Zvcm1hdCIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+QUhUTUw8L0VudHJ5PgogICAgICAgICAgICA8RW50cnkga2V5PSJkaXNwbGF5UmVzb3VyY2VzRmllbGRUYWJJbmZvTWluaVByZWZlcmVuY2UiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPmZhbHNlPC9FbnRyeT4KICAgICAgICAgICAgPEVudHJ5IGtleT0iZGlzcGxheUZvcm1hdFRhYkluZm9NaW5pUHJlZmVyZW5jZSIgdHlwZT0iamF2YS5sYW5nLlN0cmluZyI+dHJ1ZTwvRW50cnk+CiAgICAgICAgICAgIDxFbnRyeSBrZXk9IklzR3JheU91dEZpZWxkc01vZGUiIHR5cGU9ImphdmEubGFuZy5TdHJpbmciPmZhbHNlPC9FbnRyeT4KICAgICAgICA8L1Byb3BlcnR5PgogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJjYXNjYWRlTmFtZXMiIHR5cGU9Ik1hcCIvPgogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJNYXN0ZXJfRmlsZXMiIHR5cGU9IlNldCI+CiAgICAgICAgICAgIDxFbnRyeSB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5wb2NfdmlzdWFsaXphdGlvbnMvaG9sZF90YWJsZXMvbmV3YnVkZ2V0X3BvdGVudGlhbF9tYzwvRW50cnk+CiAgICAgICAgPC9Qcm9wZXJ0eT4KICAgICAgICA8UHJvcGVydHkgbmFtZT0ibWV0YWRhdGFWaWV3QXMiIHR5cGU9Ik1hcCI+CiAgICAgICAgICAgIDxFbnRyeSBrZXk9InBvY192aXN1YWxpemF0aW9ucy9ob2xkX3RhYmxlcy9uZXdidWRnZXRfcG90ZW50aWFsX21jIiB0eXBlPSJqYXZhLmxhbmcuU3RyaW5nIj5NZXRhRGF0YVRyZWUuVklFV19ESU1TPC9FbnRyeT4KICAgICAgICA8L1Byb3BlcnR5PgogICAgICAgIDxQcm9wZXJ0eSBuYW1lPSJlbmFibGVQcmV2aWV3IiB0eXBlPSJqYXZhLmxhbmcuQm9vbGVhbiI+dHJ1ZTwvUHJvcGVydHk+CiAgICA8L09iamVjdD4KPC9Sb290Pgo=&#10;-*Do not delete or modify the comments above&#10;"/>
+        </entry>
+    </extendedProperties>
+    <nlsValues _jt="HashMap" loadFactor="0.75" threshold="12">
+        <entry>
+            <key _jt="string" value="en_US"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Potential KPIV2"/>
+                <item _jt="string" index="1" value=""/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="es_ES"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="Pontencial"/>
+                <item _jt="string" index="1" value=""/>
+            </value>
+        </entry>
+        <entry>
+            <key _jt="string" value="fr_FR"/>
+            <value _jt="ArrayList" size="2">
+                <item _jt="string" index="0" value="KPIV2 potentiel"/>
+                <item _jt="string" index="1" value=""/>
+            </value>
+        </entry>
+    </nlsValues>
+    <fexParameters _jt="ArrayList" size="1">
+        <item _jt="IBRFexParameter" amperFormat="A250V" datadomain="NOM_FILIALE" description="Subsidiary" index="0" multiselect="true" parent="" parmname="NOM_FILIALE" required="false">
+            <amperVarType class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+            <amperVar aggType="" amperIdx="17" chainIdx="-1" class="com.ibi.wfrs.IBFSWFDescribe$AmperVar" description="Subsidiary" format="A250V" idxInChain="-1" inForm="true" isDefault="true" max="0.0" min="0.0" name="NOM_FILIALE" noSelection="false" operation="OR" parent="" proc="" sortFields="" sortOrder="ASCENDING" strDef="_FOC_NULL" validate="">
+                <type class="com.ibi.wfrs.IBFSAmperVarType" name="defaultType"/>
+                <userDefValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </userDefValues>
+                <defValues _jt="array" itemsClass="string" size="1">
+                    <item _jt="string" index="0" value="_FOC_NULL"/>
+                </defValues>
+                <displayType class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                <values accessOrder="false" class="java.util.LinkedHashMap" loadFactor="0.75" threshold="0"/>
+                <dynValues class="com.ibi.wfrs.IBFSWFDescribe$DynamicAmper" displayField="" field="SALES_2020.SALES_2020.NOM_FILIALE" file="POC_VISUALIZATIONS/HOLD_TABLES/SALES_2020">
+                    <type class="com.ibi.wfrs.IBFSAmperDisplayType" name="find"/>
+                </dynValues>
+                <parameters _jt="HashMap" loadFactor="0.75" threshold="0"/>
+            </amperVar>
+        </item>
+    </fexParameters>
+</rootObject>
