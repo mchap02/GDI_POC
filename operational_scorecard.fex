@@ -1,0 +1,95 @@
+ENGINE INT CACHE SET ON
+SET PAGE-NUM=NOLEAD
+SET SQUEEZE=ON
+-DEFAULTH &WF_HTMLENCODE=OFF;
+SET HTMLENCODE=&WF_HTMLENCODE
+-SET &ECHO='ALL';
+
+SET HTMLCSS=ON
+-DEFAULTH &WF_EMPTYREPORT=ON;
+SET EMPTYREPORT=&WF_EMPTYREPORT
+
+-DEFAULTH &WF_ARVERSION=2;
+SET ARVERSION=&WF_ARVERSION
+
+-DEFAULTH &WF_SUMMARY='Summary';
+-DEFAULTH &WF_TITLE='WebFOCUS Report';
+
+
+-* APP HOLD POC_VISUALIZATIONS
+-* GRAPH FILE SALES_POC_VIEW_BV
+-* SUM MNT_SALES AS '' 
+-* BY NOM_FILIALE
+-* BY DATE_DEBUT_RELATION_YEAR_M
+-* -* WHERE RECORDLIMIT EQ 200
+-* ON GRAPH HOLD AS poc_visualizations/ORD FORMAT PNG
+-* ON GRAPH SET GRAPHDEFAULT OFF
+-* ON GRAPH SET LOOKGRAPH VLINE
+-* ON GRAPH SET HAXIS 100
+-* ON GRAPH SET VAXIS 25
+-* ON GRAPH SET 3D OFF
+-* ON GRAPH SET GRAPHSTYLE *
+-* setDepthAngle(0);                      // Turn off 2.5D
+-* setDepthRadius(0);                     // Turn off 2 D
+-* setExtendToFrameEdge(true);            // Extend graph to use entire presentation area.
+-* setFillColor(getSeries(0),new Color(155 221 244)); // Change line color to Dark Grey.
+-* setFootnoteDisplay(false);             // Turn off footnotes ... just in case.
+-* setFrameDisplay(false);                // Turn off graph frame display
+-* setGraphType(41);                      // Vertical Absolute Line Plot
+-* setLegendAutomatic(false);             // Turn off legend automatic setting.
+-* setLegendDisplay(false);               // Turn off legend
+-* setLineWidth(getSeries(0),2);          // Smallest line width for series 0.
+-* setMarkerShape(getSeries(0),0);        // Turn off marker shape for series 0.
+-* setMarkerSize(getSeries(0),0);         // Turn off merker size for series 0.
+-* setO1AxisLineDisplay(false);           // Turn off Ordinal (Category) Axis display
+-* setO1LabelDisplay(false);              // Turn off Ordinal (Category) Axis Labels
+-* setO1MajorGridDisplay(false);          // Turn off Ordinal (Category) Axis Major Grid lines
+-* setO1TitleDisplay(false);              // Turn off title display for displayed series 0.
+-* setSubtitleDisplay(false);             // Turn off subtitles.
+-* setTitleDisplay(false);                // Turn off titles.
+-* setToolTipDisplay(false);              // Turn off tool tips
+-* setY1AxisLineDisplay(false);           // Turn off Numeric Axis display
+-* setY1LabelDisplay(false);              // Turn off Numeric Axis Labels
+-* setY1MajorGridDisplay(false);          // Turn off Numeric Axis Major Grid lines
+-* setReportParsingErrors(false);
+-* setSelectionEnableMove(false);
+-* setTransparentBorderColor(getSeries(0),true);
+-* setDepthRadius(0);
+-* setUseSeriesShapes(true);
+-* setMarkerSizeDefault(50);
+-* setPlace(false);
+-* setTransparentBorderColor(getChartBackground(),true);
+-* setTransparentFillColor(getChartBackground(),true);
+-* setTransparentFillColor(getFrame(),true);
+-* setRect(getFrame(), new Rectangle(-16000,-16000,32000,32000)); // Set the graph display area to be the entire canvas.
+-* // Make graph background transparent - See techsupport.informationbuilders.com/sps/60762508.html
+-* setFillColor(getFrame(),new Color(255,255,255,0));             // Make graph background transparent and case 73502531
+-* setFillColor(getChartBackground(),new Color(255,255,255,0));   // Make graph background transparent and case 73502531
+-* ENDSTYLE
+-* END
+-* -RUN
+
+-* -EXIT
+
+
+DEFINE FILE poc_visualizations/hold_tables/opsscorecardview
+SPARK/A200  = '<img src="/approot/poc_visualizations/ord' || ORDER1|| '.png">';
+END
+
+TABLE FILE poc_visualizations/hold_tables/opsscorecardview
+SUM SALES__AMT
+WEIGHTED_POTENTIAL
+SALES_VS_WEIGHTED_POTENTIAL
+WEIGHTED_BUDGET
+SALES_BUD
+SPARK AS 'Sales,Trend'
+BY SUBSIDIARY
+ON TABLE PCHOLD FORMAT HTML
+ON TABLE NOTOTAL
+ON TABLE SET CACHELINES 100
+ON TABLE SET GRWIDTH 1
+ON TABLE SET STYLE *
+INCLUDE=IBFS:/FILE/IBI_HTML_DIR/ibi_themes/Warm.sty,$
+TYPE=REPORT, TITLETEXT=&WF_TITLE.QUOTEDSTRING, SUMMARY=&WF_SUMMARY.QUOTEDSTRING, ORIENTATION=LANDSCAPE, $
+ENDSTYLE
+END
